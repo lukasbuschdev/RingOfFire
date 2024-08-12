@@ -1,0 +1,16 @@
+.player {
+    background-color: rgb(255, 143, 109);
+    border-radius: 99px 0 0 99px;
+    width: 300px;
+
+    img {
+        height: 100px;
+        border-radius: 999px;
+    }
+
+    span {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 0 50px 0 30px;
+    }
+}
