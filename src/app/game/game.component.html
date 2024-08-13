@@ -2,11 +2,11 @@
 
 <div class="field center">
     <div class="card-stack">
-        <img [ngStyle]="{'right.px': i * 5}" *ngFor="let card of [0,1,2,3,4]; let i = index" src="/assets/img/cards/card_cover.png">
-        <img (click)="takeCard()" class="top-card" src="/assets/img/cards/card_cover.png">
+        <img [ngStyle]="{'right.px': i * 5}" *ngFor="let card of [0,1,2,3,4]; let i = index" src="assets/img/cards/card_cover.png">
+        <img (click)="takeCard()" class="top-card" src="assets/img/cards/card_cover.png">
         
-        <img *ngFor="let card of game.playedCards" class="played-card" src="/assets/img/cards/{{ card }}.png">
-        <img (click)="takeCard()" [class.pick-card]="pickCardAnimation" *ngIf="pickCardAnimation" class="pick-card" src="/assets/img/cards/{{ currentCard }}.png">
+        <img *ngFor="let card of game.playedCards" class="played-card" src="assets/img/cards/{{ card }}.png">
+        <img (click)="takeCard()" [class.pick-card]="pickCardAnimation" *ngIf="pickCardAnimation" class="pick-card" src="assets/img/cards/{{ currentCard }}.png">
     </div>
 </div>
 
