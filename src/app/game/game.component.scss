@@ -12,6 +12,7 @@
     img {
         position: absolute;
         width: 120px;
+        bottom: -130px;
     }
 
 }
@@ -66,4 +67,11 @@
     right: 36px;
     bottom: 36px;
     background-color: rgb(255, 143, 109);
+}
+
+.bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    right: 100px;
 }
