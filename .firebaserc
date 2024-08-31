@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ring-of-fire-cee89": {
+      "hosting": {
+        "ringoffire": [
+          "ring-of-fire-cee89"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ring-of-fire-cee89"
+  }
+}
